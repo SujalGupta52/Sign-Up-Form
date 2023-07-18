@@ -66,18 +66,21 @@ form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 2em;
+    gap: 1.5em;
 }
 
 input {
     appearance: none;
     display: block;
     margin: 0;
-    width: 30em;
-    height: 3em;
+    width: 15em;
+    height: 2em;
     border-radius: 0.5em;
     border: 0.2em solid #E5E7EB;
     box-shadow: none;
+    font-size: 1.5em;
+    padding: 0;
+    padding-left: 0.5em;
 }
 
 input:focus {
@@ -88,7 +91,7 @@ input:focus {
 
 form .element-group {
     display: flex;
-    gap: 10em;
+    gap: 7em;
 }
 
 label {
