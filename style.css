@@ -2,6 +2,8 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0;
+    background-color: rgb(244, 244, 244);
+    font-family: sans-serif;
 }
 
 .image-container { 
@@ -24,8 +26,8 @@ body {
     position: absolute;
     top: 20rem;
     color: white;
-    font-size: 7rem;
-    background-color: #222;
+    font-size: 8em;
+    background-color: rgba(34, 34, 34, 0.7);
     width: 100%;
     text-align: center;
 }
@@ -35,4 +37,102 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 3em;
+
+}
+
+.inner-container1,
+.inner-container2,
+.inner-container3 {
+    /* border: 0.5em solid red; */
+    padding-left: 1.5em;
+}
+
+.inner-container1 {
+    font-size: 2em;
+    font-weight: 600;
+    max-width: 30em;
+}
+
+.inner-container2 {
+    background-color: white;
+    padding-left: 4em;
+    padding-bottom: 3em;
+    box-shadow: 0em 0.2em 0.5em #bbbbbb;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+input {
+    appearance: none;
+    display: block;
+    margin: 0;
+    width: 30em;
+    height: 3em;
+    border-radius: 0.5em;
+    border: 0.2em solid #E5E7EB;
+    box-shadow: none;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid rgb(58, 173, 255);
+    box-shadow: 0.2em 0.2em 0.5em gray;
+}
+
+form .element-group {
+    display: flex;
+    gap: 10em;
+}
+
+label {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: #4f4f50;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+
+.inner-container3 {
+    font-size: 1.7em;
+    padding-left: 2.5em;
+}
+
+button {
+    appearance: none;
+    width: 12em;
+    height: 3em;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #596D48;
+    color: white;
+    margin-bottom: 1em;
+    box-shadow: 0.1em 0.1em 0.5em gray;
+
+}
+
+
+input:invalid + span::after {
+    content: "*Invalid Format. Please check again";
+    color: red;
+    font-size: 1.2em;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+a {
+    color: #596D48;
 }

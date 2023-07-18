@@ -1,59 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="image-container">
-        <img src="./images/Leaf.avif" alt="A image of leaf">
-        <span class="text-container">
-            ODIN
-        </span>
+      <img src="./images/Leaf.avif" alt="A image of leaf" />
+      <span class="text-container"> ODIN </span>
     </div>
     <div class="form-container">
-        <div class="inner-container1">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.<br>Sign up <em>now</em> to get started.</p>
-            <p>You <em>know</em> you want to.</p>
+      <div class="inner-container1">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams.<br />Sign
+          up <em>now</em> to get started.
+        </p>
+        <p>You <em>know</em> you want to.</p>
+      </div>
+      <div class="inner-container2">
+        <h1>Let's do this!</h1>
+        <div class="form">
+          <form action="example.com" method="post">
+            <div class="element-group">
+              <div class="elements">
+                <label for="first-name">First Name</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                /><span></span>
+              </div>
+
+              <div class="elements">
+                <label for="last-name">Last Name</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                /><span></span>
+              </div>
+            </div>
+
+            <div class="element-group">
+              <div class="elements">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" /><span></span>
+              </div>
+
+              <div class="elements">
+                <label for="phn-no">Phone Number</label>
+                <input type="number" name="phn-no" id="phn-no" min="1000000000"/><span></span>
+              </div>
+            </div>
+
+            <div class="element-group">
+              <div class="elements">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                /><span></span>
+              </div>
+
+              <div class="elements">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" id="confirm-password" /><span></span>
+              </div>
+            </div>
+          </form>
         </div>
-        <div class="inner-container2">
-            <p>Lets do this</p>
-            <form action="example.com" method="post">
-                <ul>
-                    <li>
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first-name" id="first-name">
-                    </li>
-                    <li>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last-name" id="last-name">
-                    </li>
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
-                    </li>
-                    <li>
-                        <label for="phn-no">Phone Number</label>
-                        <input type="number" name="phn-no" id="phn-no">
-                    </li>
-                    <li>
-                        <label for="password">Password</label>
-                        <input type="password" name="password" id="password">
-                    </li>
-                    <li>
-                        <label for="confirm-password">Confirm Password</label>
-                        <input type="password" id="confirm-password">
-                    </li>
-                </ul>
-            </form>
-        </div>
-        <div class="inner-container3">
-            <button type="submit">Create Account</button>
-            <p>Already have an account? <a href="example.com">Log in</a>
-            </p>
-        </div>
+      </div>
+      <div class="inner-container3">
+        <button type="submit">Create Account</button>
+        <p>Already have an account? <a href="https://www.github.com/SujalGupta52">Log in</a></p>
+      </div>
     </div>
-</body>
+  </body>
 </html>
