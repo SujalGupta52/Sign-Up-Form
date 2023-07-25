@@ -29,10 +29,10 @@ body {
 
 .image-container .text-container {
     position: absolute;
-    top: 20rem;
+    top: 250px;
     color: white;
     font-family: "Norse";
-    font-size: 8em;
+    font-size: 80px;
     background-color: rgba(34, 34, 34, 0.6);
     width: 100%;
     text-align: center;
@@ -43,7 +43,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 3em;
+    gap: 30px;
 
 }
 
@@ -51,56 +51,57 @@ body {
 .inner-container2,
 .inner-container3 {
     /* border: 0.5em solid red; */
-    padding-left: 1.5em;
+    padding-left: 10px;
 }
 
 .inner-container1 {
-    font-size: 2em;
+    font-size: 20px;
     font-weight: 600;
-    max-width: 30em;
+    max-width: 100vh;
+    padding-left: 30px;
 }
 
 .inner-container2 {
     background-color: white;
-    padding-left: 4em;
-    padding-bottom: 3em;
-    box-shadow: 0em 0.2em 0.5em #bbbbbb;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    box-shadow: 0px 4px 10px #bbbbbb;
 }
 
 form {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 1.5em;
+    gap: 20px;
 }
 
 input {
     appearance: none;
     display: block;
     margin: 0;
-    width: 15em;
-    height: 1.7em;
-    border-radius: 0.3em;
-    border: 0.1em solid #E5E7EB;
+    width: 250px;
+    height: 30px;
+    border-radius: 7px;
+    border: 2px solid #E5E7EB;
     box-shadow: none;
-    font-size: 1.5em;
+    font-size: 20px;
     padding: 0;
-    padding-left: 0.5em;
+    padding-left: 20px;
 }
 
 input:focus {
     outline: none;
-    border: 2px solid rgb(56, 87, 245);
-    box-shadow: 0.1em 0.1em 0.5em gray;
+    border: 1.5px solid rgb(56, 87, 245);
+    box-shadow: 1px 1px 10px gray;
 }
 
 form .element-group {
     display: flex;
-    gap: 7em;
+    gap: 80px;
 }
 
 label {
-    font-size: 1.2em;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 600;
@@ -108,26 +109,26 @@ label {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 24px;
 }
 
 
 .inner-container3 {
-    font-size: 1.7em;
-    padding-left: 2.5em;
+    font-size: 20px;
+    padding-left: 30px;
 }
 
 button {
     appearance: none;
-    width: 12em;
-    height: 3em;
-    border-radius: 0.5em;
-    font-size: 1em;
+    width: 190px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
     font-weight: bold;
     background-color: #596D48;
     color: white;
-    margin-bottom: 1em;
-    box-shadow: 0.1em 0.1em 0.5em gray;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px gray;
 
 }
 
@@ -135,7 +136,7 @@ button {
 input:invalid + span::after {
     content: "*Invalid Format. Please check again";
     color: red;
-    font-size: 1.2em;
+    font-size: 12px;
 }
 
 input:invalid {
